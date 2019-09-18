@@ -1,0 +1,7 @@
+@import "reset.css";
+
+body {
+    background-color : white;
+    padding: 10px 20px;
+    color: #020202;
+}
