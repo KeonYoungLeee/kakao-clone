@@ -6,7 +6,7 @@ Technologies
 ##### CSS3 
 ##### Github 
 ##### Desktop 
-##### Media 
+##### Media (Responsive)
 ##### Queries 
 ##### Flexbox 
 ##### Animations 
