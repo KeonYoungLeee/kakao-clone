@@ -9,7 +9,7 @@ Technologies
 ##### Media (Responsive)
 ##### Queries 
 ##### Flexbox 
-##### Animations 
+##### Animation
 ##### Font Awesome
 
 Features
