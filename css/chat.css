@@ -7,7 +7,7 @@
     padding: 0px 20px;
 }
 .chat {
-    background-image: url("../images/dot-grid.png");
+   
     min-height: 100vh;
 }
 
@@ -49,6 +49,7 @@
 }
 
 .chat-screen .chat__messages {
+    background-image: url("../images/dot-grid.png");
     border-top: 1px solid #f7f7f7;
     padding-top: 30px;
     display: flex;
@@ -73,8 +74,8 @@
 
 .message {
     display: flex;
-    align-items: center;
-    width: 50%;
+    align-items: flex-start;
+    margin-bottom: 20px;
 }
 
 .message .message__content {
@@ -92,15 +93,35 @@
 .incoming-message img {
     width: 30px;
     border-radius: 15px;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .message .message__bubble {
+    display: block;
     background-color: white;
     box-shadow: 
     rgba(0,0,0,0.3) 0px 8px 16px -8px,
     rgba(0,0,0,0.024) 0px -6px 16px -6px;
     padding: 10px 20px;
     border-radius: 30px;
+    color: rgb(39, 39, 39);
+    font-weight: 600;
+}
+
+.incoming-message .message__author {
+    margin-top: 10px;
+    display: block;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.incoming-message .message__bubble {
+    border-bottom-left-radius: 0px;
+    background-image: linear-gradient(to right, #74ebd5, #ACB6E5);
+}
+
+.sent-message .message__bubble {
+    border-bottom-right-radius: 0px;
+    background-image: linear-gradient(to left, #d9a7c7, #fffcdc);
 }
 
